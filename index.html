@@ -1,10 +1,222 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-    <meta charset="UTF-8">
-    <title>AUFTRAGSKONZEPT</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>AUFTRAGSKONZEPT</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+
+background:#000;
+color:white;
+font-family:Montserrat,sans-serif;
+overflow-x:hidden;
+
+}
+
+.hero{
+
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+flex-direction:column;
+text-align:center;
+padding:20px;
+
+}
+
+.logo{
+
+width:240px;
+margin-bottom:50px;
+opacity:0;
+animation:fadeLogo 2s forwards;
+
+}
+
+.slogan{
+
+font-size:64px;
+font-weight:700;
+line-height:1.2;
+
+}
+
+.slogan span{
+
+display:block;
+opacity:0;
+transform:translateY(30px);
+
+}
+
+.s1{
+
+animation:textIn .8s forwards;
+animation-delay:2.2s;
+
+}
+
+.s2{
+
+animation:textIn .8s forwards;
+animation-delay:2.9s;
+
+}
+
+.s3{
+
+animation:textIn .8s forwards;
+animation-delay:3.6s;
+color:#d4af37;
+
+}
+
+.sub{
+
+margin-top:40px;
+font-size:22px;
+font-weight:300;
+max-width:900px;
+line-height:1.7;
+opacity:0;
+
+animation:fadeText 1.2s forwards;
+animation-delay:4.4s;
+
+}
+
+.buttons{
+
+margin-top:55px;
+
+opacity:0;
+
+animation:fadeText 1.2s forwards;
+animation-delay:5s;
+
+}
+
+.btn{
+
+display:inline-block;
+
+padding:18px 42px;
+
+margin:12px;
+
+background:#d4af37;
+
+color:black;
+
+font-weight:700;
+
+text-decoration:none;
+
+border-radius:40px;
+
+transition:.4s;
+
+}
+
+.btn:hover{
+
+transform:translateY(-3px);
+
+box-shadow:0 0 35px rgba(212,175,55,.45);
+
+}
+
+.btn2{
+
+background:transparent;
+
+border:2px solid #d4af37;
+
+color:#d4af37;
+
+}
+
+@keyframes fadeLogo{
+
+to{
+
+opacity:1;
+
+}
+
+}
+
+@keyframes textIn{
+
+to{
+
+opacity:1;
+
+transform:translateY(0);
+
+}
+
+}
+
+@keyframes fadeText{
+
+to{
+
+opacity:1;
+
+}
+
+}
+
+</style>
+
 </head>
+
 <body>
 
+<section class="hero">
+
+<img src="logo.png" class="logo">
+
+<div class="slogan">
+
+<span class="s1">Mehr Aufträge.</span>
+
+<span class="s2">Weniger Leerlauf.</span>
+
+<span class="s3">Mehr Möglichkeiten.</span>
+
+</div>
+
+<div class="sub">
+
+Die Plattform, die Handwerksbetriebe und Handwerker intelligent miteinander verbindet.
+
+</div>
+
+<div class="buttons">
+
+<a href="#" class="btn">Jetzt kostenlos auf die Warteliste</a>
+
+<a href="#" class="btn btn2">Mehr erfahren</a>
+
+</div>
+
+</section>
+
 </body>
+
 </html>
