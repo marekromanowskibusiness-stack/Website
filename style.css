@@ -1,0 +1,85 @@
+/* =========================
+   GRUNDEINSTELLUNGEN
+========================= */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background:radial-gradient(circle at top,#151515 0%,#050505 35%,#000000 100%);
+    color:#ffffff;
+    overflow-x:hidden;
+}
+
+/* =========================
+   HERO
+========================= */
+
+.hero{
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    align-items:center;
+    text-align:center;
+    padding:40px 25px 80px;
+}
+
+/* =========================
+   LOGO
+========================= */
+
+.logo{
+    width:180px;
+    max-width:100%;
+    margin-bottom:60px;
+    filter:drop-shadow(0 0 18px rgba(212,175,55,.25));
+}
+
+/* =========================
+   ÜBERSCHRIFT
+========================= */
+
+.slogan{
+    display:flex;
+    flex-direction:column;
+    gap:18px;
+    margin-bottom:40px;
+    line-height:1.05;
+}
+
+.s1,
+.s2,
+.s3{
+    font-weight:900;
+    font-size:clamp(42px,5.8vw,74px);
+}
+
+.s1,
+.s2{
+    color:#ffffff;
+}
+
+.s3{
+    color:#d4af37;
+}
+
+/* =========================
+   TEXT
+========================= */
+
+.hero p{
+    max-width:900px;
+    font-size:clamp(22px,2vw,30px);
+    line-height:1.6;
+    color:#d8d8d8;
+    margin-bottom:60px;
+}
