@@ -121,7 +121,48 @@ body{
     font-weight:bold;
     transition:.35s;
 }
+/* ==========================
+   SANFTE EINBLENDUNGEN
+========================== */
 
+.logo,
+.slogan,
+.hero p,
+.buttons{
+    opacity:0;
+    transform:translateY(30px);
+    animation:fadeUp 1.2s ease forwards;
+}
+
+.logo{
+    animation-delay:.2s;
+}
+
+.slogan{
+    animation-delay:.7s;
+}
+
+.hero p{
+    animation-delay:1.2s;
+}
+
+.buttons{
+    animation-delay:1.7s;
+}
+
+@keyframes fadeUp{
+
+    from{
+        opacity:0;
+        transform:translateY(30px);
+    }
+
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+
+}
 .black-button:hover{
     background:#d4af37;
     color:#000;
