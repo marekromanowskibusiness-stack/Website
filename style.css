@@ -414,3 +414,12 @@ body{
 .audience-number {
     display: none;
 }
+/* =========================
+   RECHTLICHE SEITEN
+   ========================= */
+
+main.legal-page .logo {
+    max-width: 180px;
+    height: auto;
+    margin: 20px auto 40px;
+}
