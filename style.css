@@ -658,9 +658,8 @@ body{
 
 .final-cta {
     text-align: center;
-    padding: 100px 20px;
+    padding: 80px 20px 90px;
     background: #050505;
-    border-top: 1px solid #1a1a1a;
 }
 
 .final-cta h2 {
