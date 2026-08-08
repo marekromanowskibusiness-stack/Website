@@ -253,3 +253,138 @@ body{
         margin-bottom: 28px;
     }
 }
+/* =========================
+   FÜR WEN IST AUFTRAGSKONZEPT
+   ========================= */
+
+.audience-section {
+    min-height: 100vh;
+    background: #050505;
+    padding: 120px 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.audience-intro {
+    max-width: 850px;
+    margin-bottom: 80px;
+}
+
+.audience-intro h2 {
+    color: #d4af37;
+    font-size: 48px;
+    font-weight: 700;
+    margin: 0 0 25px;
+    letter-spacing: 1px;
+}
+
+.audience-intro p {
+    color: #ffffff;
+    font-size: 22px;
+    line-height: 1.6;
+    margin: 0;
+}
+
+.audience-cards {
+    width: 100%;
+    max-width: 1050px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 35px;
+}
+
+.audience-card {
+    position: relative;
+    background: linear-gradient(145deg, #111111, #080808);
+    border: 1px solid rgba(212, 175, 55, 0.45);
+    border-radius: 18px;
+    padding: 50px 45px;
+    text-align: left;
+    box-shadow: 0 0 35px rgba(212, 175, 55, 0.08);
+}
+
+.audience-number {
+    display: block;
+    color: #d4af37;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+}
+
+.audience-card h3 {
+    color: #ffffff;
+    font-size: 30px;
+    margin: 0 0 20px;
+}
+
+.audience-card p {
+    color: #dddddd;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+.audience-card ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.audience-card li {
+    color: #ffffff;
+    font-size: 16px;
+    margin-bottom: 14px;
+    padding-left: 22px;
+    position: relative;
+}
+
+.audience-card li::before {
+    content: "•";
+    color: #d4af37;
+    position: absolute;
+    left: 0;
+    font-size: 20px;
+}
+
+.audience-bottom {
+    margin-top: 70px;
+    color: #d4af37;
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+@media (max-width: 700px) {
+
+    .audience-section {
+        padding: 80px 20px;
+    }
+
+    .audience-intro h2 {
+        font-size: 34px;
+    }
+
+    .audience-intro p {
+        font-size: 18px;
+    }
+
+    .audience-cards {
+        grid-template-columns: 1fr;
+    }
+
+    .audience-card {
+        padding: 35px 28px;
+    }
+
+    .audience-card h3 {
+        font-size: 26px;
+    }
+
+    .audience-bottom {
+        font-size: 20px;
+    }
+}
