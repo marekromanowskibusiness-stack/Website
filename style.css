@@ -550,3 +550,104 @@ body{
         line-height: 1.65;
     }
 }
+/* =========================
+   SO FUNKTIONIERT
+   ========================= */
+
+.how-it-works {
+    padding: 100px 8%;
+    text-align: center;
+    background: #000;
+}
+
+.how-it-works h2 {
+    color: #d4af37;
+    font-size: 42px;
+    margin-bottom: 20px;
+}
+
+.how-intro {
+    color: #fff;
+    font-size: 20px;
+    margin: 0 auto 60px;
+    max-width: 800px;
+}
+
+.steps {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.step-card {
+    background: #0d0d0d;
+    border: 1px solid #8f7515;
+    border-radius: 20px;
+    padding: 40px 30px;
+    text-align: left;
+}
+
+.step-number {
+    display: block;
+    color: #d4af37;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.step-card h3 {
+    color: #fff;
+    font-size: 25px;
+    margin-bottom: 18px;
+}
+
+.step-card p {
+    color: #ddd;
+    font-size: 17px;
+    line-height: 1.6;
+    margin: 0;
+}
+
+.how-bottom {
+    color: #d4af37;
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 65px;
+}
+
+
+/* =========================
+   MOBILE
+   ========================= */
+
+@media (max-width: 800px) {
+
+    .how-it-works {
+        padding: 70px 20px;
+    }
+
+    .how-it-works h2 {
+        font-size: 32px;
+    }
+
+    .how-intro {
+        font-size: 18px;
+        margin-bottom: 40px;
+    }
+
+    .steps {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .step-card {
+        padding: 30px 25px;
+    }
+
+    .how-bottom {
+        font-size: 20px;
+        line-height: 1.5;
+    }
+}
