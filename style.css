@@ -167,3 +167,47 @@ body{
     background:#d4af37;
     color:#000;
 }
+/* =========================
+   WARUM AUFTRAGSKONZEPT
+   ========================= */
+
+.why-section {
+    min-height: 100vh;
+    background: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 120px 25px;
+    text-align: center;
+}
+
+.why-intro {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.why-intro h2 {
+    color: #d4af37;
+    font-size: 52px;
+    margin-bottom: 80px;
+    font-weight: 700;
+}
+
+.why-line {
+    color: #ffffff;
+    font-size: 28px;
+    line-height: 1.6;
+    margin-bottom: 55px;
+}
+
+.why-highlight {
+    color: #ffffff;
+    font-size: 34px;
+    line-height: 1.5;
+    margin-top: 80px;
+    font-weight: 600;
+}
+
+.why-highlight::first-line {
+    color: #d4af37;
+}
