@@ -714,3 +714,124 @@ body{
     color: #000000;
     transform: translateY(-2px);
 }
+/* =========================
+   HANDWERKSBETRIEBE SEITE
+   ========================= */
+
+.business-page {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 70px 30px 90px;
+    text-align: center;
+}
+
+.business-page h1 {
+    color: #ffffff;
+    font-size: 52px;
+    line-height: 1.15;
+    margin-bottom: 30px;
+}
+
+.business-intro {
+    color: #ffffff;
+    font-size: 21px;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto 90px;
+}
+
+.business-problem {
+    padding: 70px 20px;
+    border-top: 1px solid #1a1a1a;
+    border-bottom: 1px solid #1a1a1a;
+}
+
+.business-problem h2,
+.business-benefits h2,
+.business-cta h2 {
+    color: #d4af37;
+    font-size: 36px;
+    margin-bottom: 25px;
+}
+
+.business-problem p {
+    color: #ffffff;
+    font-size: 19px;
+    line-height: 1.7;
+    max-width: 800px;
+    margin: 0 auto 20px;
+}
+
+.business-benefits {
+    padding: 90px 0;
+}
+
+.business-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    margin-top: 50px;
+}
+
+.business-card {
+    background: #0b0b0b;
+    border: 1px solid #d4af37;
+    border-radius: 18px;
+    padding: 35px 25px;
+    text-align: left;
+}
+
+.business-card h3 {
+    color: #d4af37;
+    font-size: 23px;
+    margin-bottom: 18px;
+}
+
+.business-card p {
+    color: #ffffff;
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+.business-cta {
+    padding: 80px 20px;
+    border-top: 1px solid #1a1a1a;
+}
+
+.business-cta p {
+    color: #ffffff;
+    font-size: 19px;
+    line-height: 1.6;
+    max-width: 750px;
+    margin: 0 auto 35px;
+}
+
+@media (max-width: 700px) {
+
+    .business-page {
+        padding: 50px 20px 70px;
+    }
+
+    .business-page h1 {
+        font-size: 38px;
+    }
+
+    .business-intro {
+        font-size: 18px;
+        margin-bottom: 60px;
+    }
+
+    .business-problem h2,
+    .business-benefits h2,
+    .business-cta h2 {
+        font-size: 28px;
+    }
+
+    .business-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .business-card {
+        text-align: center;
+    }
+}
