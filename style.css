@@ -410,3 +410,7 @@ body{
 .site-footer a:hover {
     color: #fff;
 }
+/* Nummern in den Zielgruppen-Karten ausblenden */
+.audience-number {
+    display: none;
+}
